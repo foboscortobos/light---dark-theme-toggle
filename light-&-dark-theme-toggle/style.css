@@ -15,7 +15,14 @@ body{
 }
 body.dark{
   background-color: #292c35;
-}
+}  background: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  transition: background .3s linear;
 body.dark p {
   color: #fff;
 }
@@ -373,3 +380,4 @@ v text-transform: capitalize;
   letter-spacing: 2px;
   list-style: none;
 //////
+
